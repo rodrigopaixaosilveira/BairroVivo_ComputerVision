@@ -1,0 +1,44 @@
+{
+  "train": {
+    "imagens": 6081,
+    "negativas": 81,
+    "instancias": {
+      "Damaged_Concrete_Structures": 9107,
+      "Garbage": 1323,
+      "Fallen_Trees": 1008,
+      "road_crack": 1371,
+      "Damaged_Electric_Poles": 896,
+      "Graffiti": 1583,
+      "pothole": 1921,
+      "Damaged_Road_Signs": 267
+    }
+  },
+  "val": {
+    "imagens": 908,
+    "negativas": 8,
+    "instancias": {
+      "Damaged_Electric_Poles": 142,
+      "road_crack": 215,
+      "Garbage": 206,
+      "Graffiti": 246,
+      "Damaged_Concrete_Structures": 1338,
+      "Fallen_Trees": 157,
+      "Damaged_Road_Signs": 27,
+      "pothole": 246
+    }
+  },
+  "test": {
+    "imagens": 911,
+    "negativas": 11,
+    "instancias": {
+      "Graffiti": 226,
+      "Damaged_Electric_Poles": 142,
+      "Damaged_Concrete_Structures": 1174,
+      "Garbage": 210,
+      "pothole": 340,
+      "road_crack": 194,
+      "Fallen_Trees": 134,
+      "Damaged_Road_Signs": 35
+    }
+  }
+}

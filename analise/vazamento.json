@@ -1,0 +1,14 @@
+{
+  "fotos_origem": 23004,
+  "cruzadas_por_nome": 1877,
+  "hash": {
+    "val": {
+      "verificadas": 1500,
+      "quase_iguais_ao_treino": 26
+    },
+    "test": {
+      "verificadas": 1500,
+      "quase_iguais_ao_treino": 12
+    }
+  }
+}

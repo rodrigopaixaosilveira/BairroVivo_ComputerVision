@@ -1,0 +1,124 @@
+{
+  "train": {
+    "imagens": 34980,
+    "sem_rotulo": 53,
+    "por_classe": {
+      "Damaged_Concrete_Structures": {
+        "imagens": 9281,
+        "instancias": 56259
+      },
+      "Damaged_Electric_Poles": {
+        "imagens": 7092,
+        "instancias": 8720
+      },
+      "Damaged_Road_Signs": {
+        "imagens": 1523,
+        "instancias": 1532
+      },
+      "Dead_Animal_Pollution": {
+        "imagens": 153,
+        "instancias": 154
+      },
+      "Fallen_Trees": {
+        "imagens": 8497,
+        "instancias": 11031
+      },
+      "Garbage": {
+        "imagens": 1063,
+        "instancias": 1950
+      },
+      "Graffiti": {
+        "imagens": 1651,
+        "instancias": 3415
+      },
+      "pothole": {
+        "imagens": 3955,
+        "instancias": 19138
+      },
+      "road_crack": {
+        "imagens": 1957,
+        "instancias": 3402
+      }
+    }
+  },
+  "val": {
+    "imagens": 4815,
+    "sem_rotulo": 8,
+    "por_classe": {
+      "Damaged_Concrete_Structures": {
+        "imagens": 1225,
+        "instancias": 9159
+      },
+      "Damaged_Electric_Poles": {
+        "imagens": 462,
+        "instancias": 549
+      },
+      "Damaged_Road_Signs": {
+        "imagens": 35,
+        "instancias": 35
+      },
+      "Dead_Animal_Pollution": {
+        "imagens": 25,
+        "instancias": 25
+      },
+      "Fallen_Trees": {
+        "imagens": 982,
+        "instancias": 1237
+      },
+      "Garbage": {
+        "imagens": 653,
+        "instancias": 1161
+      },
+      "Graffiti": {
+        "imagens": 206,
+        "instancias": 388
+      },
+      "pothole": {
+        "imagens": 521,
+        "instancias": 1760
+      },
+      "road_crack": {
+        "imagens": 789,
+        "instancias": 1405
+      }
+    }
+  },
+  "test": {
+    "imagens": 3787,
+    "sem_rotulo": 7,
+    "por_classe": {
+      "Damaged_Concrete_Structures": {
+        "imagens": 1219,
+        "instancias": 9636
+      },
+      "Damaged_Electric_Poles": {
+        "imagens": 305,
+        "instancias": 389
+      },
+      "Damaged_Road_Signs": {
+        "imagens": 38,
+        "instancias": 39
+      },
+      "Dead_Animal_Pollution": {
+        "imagens": 14,
+        "instancias": 14
+      },
+      "Fallen_Trees": {
+        "imagens": 1632,
+        "instancias": 2015
+      },
+      "Graffiti": {
+        "imagens": 203,
+        "instancias": 433
+      },
+      "pothole": {
+        "imagens": 310,
+        "instancias": 1440
+      },
+      "road_crack": {
+        "imagens": 61,
+        "instancias": 83
+      }
+    }
+  }
+}

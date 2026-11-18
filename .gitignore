@@ -1,0 +1,18 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# dataset (~400 MB): baixar do Roboflow e rodar o notebook
+dataset/
+
+# saídas geradas pelos apps (recriadas a cada execução)
+saidas/
+
+# pesos intermediários do treino (o modelo final está em modelos/)
+runs/*/weights/
+runs/*.log
+
+# notebook temporário usado só para organizar a pasta (pode apagar)
+_executar_tarefas.ipynb
