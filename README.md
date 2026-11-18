@@ -7,6 +7,8 @@ zeladoria nas fotos que os moradores enviam (buraco, via danificada, lixo, poste
 placa). Cada detecção vira uma **sugestão de ocorrência** — categoria, prioridade, confiança e caixa — que o operador
 do BairroVivo confirma ou corrige.
 
+**Vídeo de demonstração:** <https://youtu.be/ROWtHUPAbRE> · **Relatório:** `BairroVivo_Vision_Computer_Vision.pdf`
+
 | Integrante | RM |
 |---|---|
 | Andre Solér | 98827 |
@@ -26,8 +28,8 @@ para o app dizer se o modelo acertou.
 **Requisitos:** Python 3.10 ou mais novo. GPU NVIDIA é opcional (sem GPU roda na CPU, ~0,1 s por foto).
 
 ```bash
-git clone <link-deste-repositório>
-cd <pasta-do-repositório>
+git clone https://github.com/rodrigopaixaosilveira/BairroVivo_ComputerVision.git
+cd BairroVivo_ComputerVision
 python -m pip install -r requirements.txt
 python app_fotos.py
 ```
@@ -211,7 +213,7 @@ variável `ORIGEM` da seção 1. Retreinar leva ~6,5 h numa RTX 3050; para só a
 | `yolo11n.pt` | YOLO11n original (COCO): ponto de partida do treino e detector de pessoas para o borrão LGPD |
 | `analise/` | estatísticas do dataset, relatório de vazamento, mosaicos por classe, exemplos da integração |
 | `runs/` | curvas de treino, matriz de confusão e métricas do teste |
-| `videos/` | vídeo de entrada da demo e a lista das fotos usadas |
+| `videos/` | vídeo de demonstração (`BairroVivo_Vision_demo.mp4`), vídeo de entrada do `app_vision.py` e a lista das fotos usadas |
 | `BairroVivo_Vision_Computer_Vision.pdf` | relatório do trabalho |
 
 ## 10. Limitações e próximos passos
